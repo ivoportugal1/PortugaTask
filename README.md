@@ -1,16 +1,39 @@
-# React + Vite
+# PortugaTask 🗂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**anota, organiza e risca da lista.**
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-8-646cff?style=flat-square&logo=vite)](https://vitejs.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre
 
-## React Compiler
+Gerenciador de tarefas feito com React. Adiciona, edita, filtra por prioridade e salva tudo no navegador — sem precisar de backend.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- ➕ Criar tarefas com prioridade (urgente / normal / quando der)
+- ✅ Marcar como concluída
+- ✏️ Editar inline
+- 🗑️ Deletar
+- 🔍 Filtrar por status (todas / pendentes / feitas)
+- 📊 Barra de progresso em tempo real
+- 💾 Salva automaticamente no localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias
+
+- [React 18](https://react.dev)
+- [Framer Motion](https://framer.com/motion) — animações
+- [Vite](https://vitejs.dev) — build
+
+## Como rodar
+
+```bash
+git clone https://github.com/ivoportugal1/PortugaTask.git
+cd PortugaTask
+npm install
+npm run dev
+```
+
+## Autor
+
+**Ivo Portugal** — [github.com/ivoportugal1](https://github.com/ivoportugal1)
